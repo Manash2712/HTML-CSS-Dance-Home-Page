@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "poppins";
+}
+nav{
+    display: flex;
+    /* width: 100vw; */
+    align-items: center;
+    margin: 2rem 4rem;
+}
+.hr-line{
+    width: 22rem;
+    margin-left: 33%;
+    background-color: #000;
+}
+.nav-logo>img{
+    height: 30px;
+    padding-left: 1rem;
+    padding-top: .7rem;
+}
+.nav-right{
+    margin-left: 3rem;
+    width: 30%;
+}
+.nav-list-items{
+    display: flex;
+    list-style-type: none;
+    gap: 12%;
+}
+
+.img-left>img{
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    max-width: 35%;
+    /* max-height: 100vh; */
+    object-fit: cover;
+    object-position: 10% 0;
+}
+.top-right{
+    display: flex;
+    margin-left: 40%;
+    margin-top: -1rem;
+}
+.heading-top{
+    font-size: 8rem;
+    line-height: 8rem;
+    font-family: "Merriweather";
+}
+.heading-top>p:first-child{
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+.heading-top>p:last-child{
+    margin-left: 39%;
+}
+
+.heading-bottom{
+    position: relative;
+    top: 9.5rem;
+    font-size: 2rem;
+    margin-left: 10rem;
+    /* margin-top: 10rem; */
+}
+.check-package{
+    margin-left: 77.5%;
+    margin-top: 1rem;
+}
+.check-package>button{
+    height: 3rem;
+    width: 15rem;
+}
+.icon-lists{
+    margin-left: 9.2%;
+    margin-top: 1rem;
+}
+.icons{
+    list-style-type: none;
+}
+.icon:not(:last-child){
+    margin-bottom: 2.2rem;
+}
+
+.bottom-right{
+    position: relative;
+    left: 40%;
+    width: 60%;
+    display: flex;
+}
+.services{
+    margin-top: 2rem;
+    list-style-position: inside;
+}
+.service{
+    padding-bottom: 2rem;
+    position: relative;
+    width: 12rem;
+    font-size: 1.1rem;
+}
+.service::marker{
+    font-size: 2rem;
+    color: gray;
+    line-height: 0%;
+}
+.service::before{
+    content: "";
+    height: 4.3rem;
+    width: .1rem;
+    background: gray;
+    color: gray;
+    position: absolute;
+    left: 0.3rem;
+    top: 3px;
+}
+.details{
+    margin-left: 4rem;
+    /* margin-top: 1rem; */
+    /* width: 25%; */
+}
+.details>h1{
+    /* padding-bottom: 1rem; */
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 5rem;
+    line-height: 0rem;
+}
+.details>p{
+    margin-top: 3.2rem;
+    padding-bottom: 1rem;
+    font-size: 1.3rem;
+}
+.details>p>span{
+    display: block;
+}
+.details>div{   
+    width: 25rem;
+    height:13rem;
+    overflow: hidden;
+}
+.details>div img{
+    max-width:100%;
+    /* object-fit: cover; */
+    /* object-position: 0 100%; */
+}
+.arrow>img{
+    position: relative;
+    /* right: -4rem; */
+    bottom: -6rem;
+
+}
